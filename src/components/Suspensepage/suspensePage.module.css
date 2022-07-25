@@ -1,0 +1,13 @@
+.LandingPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2EC4B6;
+    background: rgba(46, 196, 182,0.07)
+}

@@ -1,0 +1,66 @@
+.AllAdminsPage{
+    padding: 40px 25px;
+}
+.addAdmin{
+    display: flex;
+    justify-content: flex-end;
+}
+.addAdmin a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #011627 !important;
+    background: #2EC4B6;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 160px;
+    padding: 15px 0px;
+    border-radius: 5px;
+}
+.adminItem{
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    justify-content: space-between;
+}
+.itemData{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.itemData h3{
+    color: #011627;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+}
+.itemData p{
+    margin: 0px;
+    color: #8E8E93;
+    font-size: 16px;
+}
+.itemControll{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.itemControll a,.itemControll span{
+    background: rgba(255, 149, 0,0.06);
+    color: #FF9500 !important;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.itemControll span{
+    background: rgba(255, 45, 85,0.06);
+    color: #FF2D55 !important
+}

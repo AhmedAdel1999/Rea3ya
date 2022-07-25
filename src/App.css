@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    display: none;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2EC4B6;
+    border-radius: 5px;
+}
+.navbar_routes__F9zj9 li a.active{
+    color: #2EC4B6;
+}
+.App{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+input,textarea{
+    color: #000;
+}
+.swiper{
+    height: 100%;
+}
+

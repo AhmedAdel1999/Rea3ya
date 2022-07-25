@@ -1,0 +1,179 @@
+.creationPage{
+    flex-basis: 100%;
+    background: #E4F7F5;
+    padding: 40px 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creationCard{
+    background-color: #fff;
+    border-radius: 2px;
+    width: 450px;
+    min-width: 350px;
+    padding: 20px;
+    height: fit-content;
+}
+.cardHead{
+    margin-bottom: 15px;
+}
+.cardHead h2{
+   font-size: 32px;
+   font-weight: bold;
+   color: #011627;
+   margin-bottom: 10px;
+}
+.cardHead p{
+    color: rgba(1, 22, 39,0.8);
+}
+.cardHead h2 span{
+    color: #00C7BE;
+}
+.cardForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.itemCollection{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.itemCollection>.formItem:last-child{
+    width: calc(100% - 180.4px);
+}
+.addimage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.addimage img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.addimage label{
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #2EC4B6;
+    background: rgba(46, 196, 182,0.14)
+}
+.formItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.formItem>label{
+    color: rgba(1, 22, 39,0.8);
+    font-size: 18px;
+    font-weight: bold;
+}
+.formItem>input,select,textarea{
+    padding: 10px;
+    border: 1px solid #e5e5ea;
+    border-radius: 2px;
+    color: rgba(199, 199, 204,0.8);
+    outline: none;
+}
+.formItem>textarea{
+    height: 120px;
+    resize: none;
+}
+.formItem>span{
+    color: red;
+}
+.idImgBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.idImgBox label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: #2EC4B60B;
+    color: rgba(46, 196, 182,0.8);
+    border: 1px dashed #2EC4B6;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.imgBox{
+    position: relative;
+}
+.imgBox span,.singleImg span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(46, 196, 182,0.8);
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+.imgBox img{
+    width: 250px;
+    height: 150px;
+}
+.imgsBox{
+    min-width: 100%;
+    max-width: 100%;
+    position: relative;
+    padding: 10px 20px 10px 0px;
+    height: 120px;
+    overflow: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.singleImg{
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.singleImg>img{
+    width: 100%;
+    height: 100%;
+}
+.creationBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+}
+.creationBtn button{
+    width: 160px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background-color: #2EC4B6;
+    color: #011627;
+    cursor: pointer;
+}
+.creationBtn a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(46, 196, 182,0.8) !important;
+}

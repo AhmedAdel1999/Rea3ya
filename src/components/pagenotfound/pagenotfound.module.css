@@ -1,0 +1,30 @@
+.NotFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-position: center;
+    background-color: rgba(46, 196, 182,0.07);
+}
+.NotFound img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+.NotFound button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #011627;
+    background-color: #2EC4B6;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 25px;
+}

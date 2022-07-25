@@ -1,0 +1,73 @@
+.contactusSec{
+    background-color: #2EC4B6;
+    position: relative;
+    z-index: 1;
+    padding: 40px 25px;
+    flex-basis: 100%;
+}
+.contactusSec::before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-image: url('../../assets/Mails.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.contactusSec>h2{
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 1;
+    color: #011627;
+    margin-bottom: 10px;
+}
+.contactusSec p{
+    color: rgba(1, 22, 39,0.8);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #FDFFFC;
+    max-width: 400px;
+    min-width: 300px;
+}
+.contactForm div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contactForm div label{
+    font-weight: bold;
+    color: rgba(1, 22, 39,0.8);
+}
+.contactForm div input,.contactForm div textarea{
+    padding: 10px;
+    border: 1px solid #e5e5ea;
+    border-radius: 2px;
+    color: rgba(199, 199, 204,0.8);
+    outline: none;
+}
+.contactForm div textarea{
+    height: 120px;
+    resize: none;
+}
+.contactForm button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0px;
+    background: #2EC4B6;
+    color: #fdfffc;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}

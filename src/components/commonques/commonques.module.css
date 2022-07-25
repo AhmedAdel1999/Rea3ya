@@ -1,0 +1,63 @@
+.commonQues{
+    background: rgba(46, 196, 182,0.07);
+    padding: 40px 25px;
+}
+.commonQues>h2{
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 1;
+    color: #011627;
+    margin-bottom: 10px;
+}
+.commonQues p{
+    color: rgba(1, 22, 39,0.8);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.quesBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.quesItem{
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: all 0.3s linear;
+}
+.itemHead{
+    display: flex;
+    justify-content: space-between;
+}
+.itemHead h3{
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 308px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.itemHead span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+}
+.quesItem p{
+    margin: 0px;
+    color: rgba(35, 31, 32,0.8);
+    font-size: 16px;
+    transition: all 0.5s ease;
+    max-height: 250px;
+}
+.quesItem p.togglesHeight{
+    max-height: 0px;
+    overflow: hidden;
+}

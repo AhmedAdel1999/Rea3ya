@@ -1,0 +1,110 @@
+.navbar{
+    position: sticky;
+    height: 80px;
+    z-index: 100;
+    width: 100%;
+    top: 0px;
+    padding: 20px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.toggler svg{
+    font-size: 25px;
+    color: #011627;
+    cursor: pointer;
+}
+
+.routes{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: fit-content;
+    gap:5px 20px;
+}
+.routes li{
+    display: flex;
+    align-items: center;
+}
+.routes li a{
+    color: #011627;
+    font-weight: bold;
+    text-decoration: none;
+}
+.routes li a:not(.login a,.create a,.AccountLogo a){
+    transition: all .3s linear;
+}
+
+.routes li a:hover:not(.AccountLogo a){
+    color: #2EC4B6;
+}
+@media(max-width:992px){
+    .routes{
+        position: absolute;
+        top: 80px;
+        right: -150%;
+        flex-direction: column;
+        width: 180px;
+        background-color: #fff;
+        transition: all 0.2s ease;
+    }
+    .routes li a:not(.AccountLogo a){
+        padding: 5px 0px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    .showroutes{
+        right: 0px;
+    }
+    .routes .create a{
+        transition: all .3s linear;
+    }
+}
+@media(min-width:992px){
+    .toggler{
+        display: none;
+    }
+    .create,.login{
+        border-radius: 2px;
+        background: #2EC4B6;
+        overflow: hidden;
+    }
+    .create a,.login a{
+        padding: 10px 20px;
+        font-size: 20px;
+        color: #011627 !important;
+    }
+    
+}
+.AccountLogo{
+    display: flex;
+    justify-content: center;
+}
+.AccountLogo a{
+    display: flex;
+    align-items: center;
+    border-radius: 26px;
+    padding: 5px 10px 5px 5px;
+    gap: 10px;
+    font-weight: bold;
+    background: rgba(46, 196, 182,0.16);
+}
+.AccountLogo a span{
+    max-width: 70px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.AccountLogo a img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+
+

@@ -1,0 +1,117 @@
+.NeedyCasesSec{
+    padding: 40px 25px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.NeedyCasesSec>h2{
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 1;
+    color: #011627;
+    margin-bottom: 10px;
+}
+.NeedyCasesSec p{
+    color: rgba(1, 22, 39,0.8);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.AllCases{
+    flex-basis: 100%;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 15px;
+    overflow-x: hidden;
+}
+@media (max-width:992px){
+    .AllCases{
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    }  
+}
+.caseItem{
+    box-shadow: 0px 15px 30px #00000014;
+}
+.itemImg{
+    position: relative;
+    max-height: 250px;
+    height: 100%;
+}
+.itemImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.itemPart{
+    padding: 5px 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #fff;
+    background: #AF52DE
+}
+.itemInfo{
+    padding: 10px 5px 10px 5px;
+    background: #FDFFFC;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.itemInfo h3,.itemInfo p{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.itemInfo h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #011627;
+}
+.itemInfo p{
+    color: rgba(142, 142, 147,0.8);
+    margin: 0px;
+    padding: 0px;
+}
+.financeDetails{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.financeDetails div span{
+    color: rgba(142, 142, 147,0.8);
+}
+.financeDetails div span:last-child{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.itemProgress{
+    margin-bottom: 10px;
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+    background: rgba(142, 142, 147,0.4);
+}
+.itemProgress div{
+    height: 100%;
+    border-radius: inherit;
+    background: #2EC4B6;
+}
+.itemInfo button,.itemInfo a{
+    color: #011627 !important;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    background: #2EC4B6
+}

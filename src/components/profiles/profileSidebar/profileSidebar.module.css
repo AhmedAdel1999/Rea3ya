@@ -1,0 +1,35 @@
+.ProfSidebar h2{
+    color: #011627;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.sideNavigation{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
+}
+.navItem{
+    width: 145px;
+    overflow: hidden;
+}
+.navItem a{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    font-size: 16px;
+    color: #AEAEB2;
+    text-decoration: none;
+}
+.navItem a:hover{
+    color: #AEAEB2;
+}
+.navItem:last-of-type a{
+    color: #E71D36 !important;
+}

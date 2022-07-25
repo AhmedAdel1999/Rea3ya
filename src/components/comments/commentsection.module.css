@@ -1,0 +1,46 @@
+.CommentsSection{
+    padding:30px 20px;
+}
+.CommentsSection h3{
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #011627;
+}
+.allComments{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.addComment{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.addComment h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(1, 22, 39,0.8);
+}
+.addComment textarea{
+    max-width: 280px;
+    min-width: 120px;
+    height: 120px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #000;
+}
+.addComment button{
+    outline: none;
+    border: none;
+    width: fit-content;
+    padding: 5px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #2EC4B6;
+    color: #011627;
+}

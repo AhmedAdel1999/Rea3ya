@@ -1,0 +1,107 @@
+.singleCasePage{
+    flex-basis: 100%;
+    background: rgba(1, 22, 39,0.07);
+    padding: 0px 25px;
+}
+.caseBody{
+    max-width: 1150px;
+    margin: 0px auto;
+    height: 100%;
+    background-color: #fff;
+}
+.caseImages{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.caseImages img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: inherit
+}
+.itemPart{
+    padding: 5px 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 50;
+    color: #fff;
+    background: #AF52DE
+}
+.caseInfo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.textInfo{
+    max-width: 500px;
+}
+
+.textInfo h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #011627;
+    word-break: break-all;
+}
+.textInfo p{
+    color: rgba(142, 142, 147,0.8);
+    word-break: break-all;
+    margin: 0px;
+    padding: 0px;
+}
+.financeInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.finance{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px 15px;
+}
+.finance div span{
+    color: rgba(142, 142, 147,0.8);
+}
+.finance div span:last-child{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.caseProgress{
+    margin-bottom: 10px;
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+    background: rgba(142, 142, 147,0.4);
+}
+.caseProgress div{
+    height: 100%;
+    border-radius: inherit;
+    background: #2EC4B6;
+}
+.editCase{
+    padding-right: 20px;
+    display: flex;
+    gap: 5px 20px;
+}
+.editCase a, .editCase button{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 25px;
+    text-decoration: none;
+    background: #2EC4B6;
+    color: #011627 !important;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}

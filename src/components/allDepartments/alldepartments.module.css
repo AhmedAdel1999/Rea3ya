@@ -1,0 +1,56 @@
+.AllDepartments{
+    padding: 40px 25px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.AllDepartments>h2{
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 1;
+    color: #011627;
+    margin-bottom: 10px;
+}
+.AllDepartments p{
+    color: rgba(1, 22, 39,0.8);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.departsSections{
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill,minmax(380px,1fr));
+    gap: 15px;
+    overflow-x: hidden;
+}
+@media (max-width:992px){
+    .departsSections{
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    }  
+}
+.partItem{
+    position: relative;
+}
+.partItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    object-position: center;
+}
+.partDetails{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #FDFFFC;
+    font-weight: bold;
+    font-size: 18px;
+}
+.partDetails span:last-of-type{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(253, 255, 252,0.8);
+}

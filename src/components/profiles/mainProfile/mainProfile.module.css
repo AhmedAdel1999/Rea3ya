@@ -1,0 +1,14 @@
+.ProfilePage{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    row-gap: 20px;
+    padding: 0px 25px;
+}
+@media(max-width:600px){
+    .ProfilePage{
+        grid-template-columns: 100%
+    } 
+}
+
+
+
